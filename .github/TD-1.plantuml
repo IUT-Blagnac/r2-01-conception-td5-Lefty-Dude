@@ -1,0 +1,24 @@
+@startuml TD5-1
+
+usecase a as "Affectater"
+usecase s as "Surveiller"
+usecase g as "Gerer"
+usecase c as "chantier"
+
+actor Artisans
+actor Entreprise 
+
+'Pour aligner les 2 acteurs :
+c -[hidden]-> s
+
+Entreprise -> s
+s -> Artisans
+
+Entreprise -> a
+a ..> c : <<include>>
+
+Entreprise ->g
+g ..> c : <<include>>
+
+
+@enduml
