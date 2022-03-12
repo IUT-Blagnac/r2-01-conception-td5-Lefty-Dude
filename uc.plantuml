@@ -1,0 +1,28 @@
+@startuml UC
+
+usecase a as "Affectater"
+usecase s as "Surveiller"
+usecase p as "Payer"
+usecase g as "Gerer"
+usecase c as "chantier"
+
+actor Artisans
+actor Entreprise 
+
+'Pour aligner les 2 acteurs :
+c -[hidden]-> s
+
+Entreprise -> s
+s -> Artisans
+
+Entreprise -> p
+p -> Artisans
+
+Entreprise -> a
+a ..> c : <<include>>
+
+Entreprise ->g
+g ..> c : <<include>>
+
+
+@enduml

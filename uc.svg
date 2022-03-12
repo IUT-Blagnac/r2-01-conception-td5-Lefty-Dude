@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="375px" preserveAspectRatio="none" style="width:401px;height:375px;background:#FFFFFF;" version="1.1" viewBox="0 0 401 375" width="401px" zoomAndPan="magnify"><defs/><g><g id="elem_a"><ellipse cx="215.0594" cy="76.8709" fill="#F1F1F1" rx="64.0594" ry="15.2119" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="174.0594" y="80.6184">Affectater</text></g><g id="elem_s"><ellipse cx="66.0664" cy="331.4312" fill="#F1F1F1" rx="60.0664" ry="14.7722" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="29.5664" y="335.1788">Surveiller</text></g><g id="elem_p"><ellipse cx="132.9237" cy="159.2309" fill="#F1F1F1" rx="39.9237" ry="14.5719" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="110.5405" y="162.8245">Payer</text></g><g id="elem_g"><ellipse cx="355.1638" cy="76.7402" fill="#F1F1F1" rx="40.6638" ry="14.5812" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="332.0122" y="80.4022">Gerer</text></g><g id="elem_c"><ellipse cx="255.8402" cy="218.3928" fill="#F1F1F1" rx="54.8402" ry="14.7338" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="222.8402" y="222.1404">chantier</text></g><!--MD5=[fb360cdff60821b0fe5509d1f3e14d52]
+entity Artisans--><g id="elem_Artisans"><ellipse cx="190" cy="302.159" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M190,310.159 L190,337.159 M177,318.159 L203,318.159 M190,337.159 L177,352.159 M190,337.159 L203,352.159 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="161" y="366.6541">Artisans</text></g><!--MD5=[4206b647878100e6066f92523e03a5d6]
+entity Entreprise--><g id="elem_Entreprise"><ellipse cx="78" cy="47.159" fill="#F1F1F1" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M78,55.159 L78,82.159 M65,63.159 L91,63.159 M78,82.159 L65,97.159 M78,82.159 L91,97.159 " fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="40" y="111.6541">Entreprise</text></g><!--MD5=[8168195bc68f8a3aae397a7d5a82b5ba]
+link c to s--><!--MD5=[2b7d819e7ad191564a781a949c579501]
+link Entreprise to s--><g id="link_Entreprise_s"><path d="M76.2422,114.718 C73.6514,169.342 68.9,269.518 66.9122,311.4276 " fill="none" id="Entreprise-to-s" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="66.6727,316.4771,71.0948,307.6768,66.9097,311.4827,63.1038,307.2976,66.6727,316.4771" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[90687c985ab7e7d06f183f7ba416f083]
+link s to Artisans--><g id="link_s_Artisans"><path d="M126.062,331.659 C135.846,331.659 145.629,331.659 155.413,331.659 " fill="none" id="s-to-Artisans" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="160.529,331.659,151.529,327.659,155.529,331.659,151.529,335.659,160.529,331.659" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[866fa234333e635eccf7a1fe3812e39c]
+link Entreprise to p--><g id="link_Entreprise_p"><path d="M103.5678,115.081 C109.608,123.921 115.773,132.945 120.89,140.434 " fill="none" id="Entreprise-to-p" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="123.929,144.883,122.1535,135.1955,121.1079,140.7549,115.5485,139.7093,123.929,144.883" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[ebabff78cb30d561306e1390fd236156]
+link p to Artisans--><g id="link_p_Artisans"><path d="M137.568,173.824 C145.785,198.402 163.368,250.997 175.905,288.4991 " fill="none" id="p-to-Artisans" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="177.562,293.4552,178.5024,283.6513,175.9768,288.7131,170.915,286.1876,177.562,293.4552" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[7164c984a0067deca1ef070f0e721290]
+link Entreprise to a--><g id="link_Entreprise_a"><path d="M116.264,76.659 C126.117,76.659 135.97,76.659 145.823,76.659 " fill="none" id="Entreprise-to-a" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="150.976,76.659,141.976,72.659,145.976,76.659,141.976,80.659,150.976,76.659" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d6047f197d3927fefc7f7c2751c9df28]
+link a to c--><g id="link_a_c"><path d="M216.293,91.67 C218.345,110.673 223.164,145.482 233,173.659 C236.031,182.342 240.58,191.415 244.835,199.014 " fill="none" id="a-to-c" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="247.43,203.539,246.4228,193.7418,244.9427,199.2016,239.4829,197.7215,247.43,203.539" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="234" y="163.7259">«include»</text></g><!--MD5=[00c8f149603a4ed71e70a7f6a4cdee33]
+link Entreprise to g--><g id="link_Entreprise_g"><path d="M116.106,41.989 C126.54,34.492 138.347,27.628 150.5,23.659 C204.579,6 224.202,6.687 278.5,23.659 C300.913,30.664 322.534,46.798 337.038,59.437 " fill="none" id="Entreprise-to-g" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="340.935,62.899,336.8632,53.9312,337.197,59.5782,331.55,59.912,340.935,62.899" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[55c2166275ceef9445b9c80282e7471e]
+link g to c--><g id="link_g_c"><path d="M348.755,91.093 C339.501,110.33 320.963,146.406 300,173.659 C292.683,183.171 283.373,192.665 275.202,200.346 " fill="none" id="g-to-c" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="271.297,203.963,280.6183,200.7829,274.9656,200.5658,275.1828,194.9131,271.297,203.963" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="61" x="319" y="163.7259">«include»</text></g><!--MD5=[f0a2425d3dbc5549fb83329ffcab55dd]
+@startuml
+usecase a as "Affectater"
+usecase s as "Surveiller"
+usecase p as "Payer"
+usecase g as "Gerer"
+usecase c as "chantier"
+
+actor Artisans
+actor Entreprise 
+
+'Pour aligner les 2 acteurs :
+c -[hidden]-> s
+
+Entreprise -> s
+s -> Artisans
+
+Entreprise -> p
+p -> Artisans
+
+Entreprise -> a
+a ..> c : <<include>>
+
+Entreprise ->g
+g ..> c : <<include>>
+@enduml
+
+@startuml
+usecase a as "Affectater"
+usecase s as "Surveiller"
+usecase p as "Payer"
+usecase g as "Gerer"
+usecase c as "chantier"
+
+actor Artisans
+actor Entreprise 
+
+c -[hidden]-> s
+
+Entreprise -> s
+s -> Artisans
+
+Entreprise -> p
+p -> Artisans
+
+Entreprise -> a
+a ..> c : <<include>>
+
+Entreprise ->g
+g ..> c : <<include>>
+@enduml
+
+PlantUML version 1.2022.3beta2(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
