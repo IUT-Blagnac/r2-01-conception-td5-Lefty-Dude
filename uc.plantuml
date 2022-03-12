@@ -1,7 +1,8 @@
-@startuml TD5-1
+@startuml UC
 
 usecase a as "Affectater"
 usecase s as "Surveiller"
+usecase p as "Payer"
 usecase g as "Gerer"
 usecase c as "chantier"
 
@@ -13,6 +14,9 @@ c -[hidden]-> s
 
 Entreprise -> s
 s -> Artisans
+
+Entreprise -> p
+p -> Artisans
 
 Entreprise -> a
 a ..> c : <<include>>

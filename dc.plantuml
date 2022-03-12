@@ -1,0 +1,56 @@
+@startuml DC
+hide circle
+hide empty members
+hide empty methods
+
+skinparam classAttributeIconSize 0
+skinparam roundcorner 5
+skinparam class {
+
+	ArrowColor Black
+	FontColor Black
+	FontSize 12
+	FontName Helvetica
+}
+skinparam arrow {
+    MessageAlign center
+}
+
+Entreprise -[hidden]- Artisan
+
+
+class "Artisan" as Artisan {
+	+nom
+    +prenom
+    +spécialité
+	+salaire 
+	+horaire
+	+coordonnées
+}
+
+class "Chantier" as Chantier {
+    +dDebut
+	+dFin 
+	+adresse
+}
+
+class "Travail" as Travail {
+	+nbheures
+	+debutM
+	+finM 
+	+paieArtisan()
+
+}
+
+class "Entreprise" as Entreprise {
+    +nom
+	+nbemployés
+    
+}
+
+Artisan "0..1" -r- "0..*" Travail: Affécté
+Chantier "0..1" -l-  "0..*" Travail: Affécté
+Entreprise -- Travail:gère
+
+
+@enduml
